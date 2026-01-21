@@ -1,6 +1,9 @@
 # Together Hub
 
+![GitHub stars](https://img.shields.io/github/stars/iksergey/dotnet-together-hub-public?style=social)
+
 ## Это шаблон проекта, который будет разрабатываться в рамках курса на платформе Stepik: [присоединяйтесь](https://stepik.org/a/229549/pay?promo=608773466d844860&utm_source=dhub&utm_medium=git&utm_campaign=sale_start&utm_term=cqrs&utm_content=gh) 🙏
+
 
 ## Следить за акциями и специальными предложениями в [Telegram](https://t.me/+DUbX9jlu7T0xOTEy)
 
