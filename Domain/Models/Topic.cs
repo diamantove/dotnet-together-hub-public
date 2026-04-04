@@ -1,9 +1,7 @@
-using Domain.ValueObjects;
 namespace Domain.Models;
 
-public class Topic
+public class Topic : Entity<TopicId>
 {
-    public TopicId Id { get; set; } = default!;
     public string Title { get; set; } = default!;
     public DateTime? EventStart { get; set; } = default!;
     public string Summary { get; set; } = default!;
