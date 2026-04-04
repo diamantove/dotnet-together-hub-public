@@ -1,10 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Domain.Exceptions;
 
-namespace Domain.VaueObjects;
+namespace Domain.ValueObjects;
 
 public class TopicId
 {
