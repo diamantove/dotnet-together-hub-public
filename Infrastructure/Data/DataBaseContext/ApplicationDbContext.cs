@@ -7,7 +7,7 @@ namespace Infrastructure.Data.DataBaseContext;
 
 public class ApplicationDbContext : DbContext, IApplicationDbContext
 {
-    protected ApplicationDbContext(DbContextOptions options)
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
     {
     }
@@ -18,7 +18,6 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext
     {
         // base.OnModelCreating(modelBuilder);
 
-        
         modelBuilder.Entity<Topic>()
         .Property(topic => topic.Id)
         .HasConversion(
